@@ -3,7 +3,7 @@
 ## Intro
 Rop Chain compiler for Linux x86 based OS. Tested on the following kali image: http://cdimage.kali.org/kali-2016.2/kali-linux-2016.2-i386.iso
 
-ropbuilder will take as input one (or more) binaries, scan their executable sections for useful gadgets, and then assemble the right ones into a functional ROP payload for giving execute permission to a second-stage shellcode.
+ropbuilder will take as input one (or more) binaries, scan their executable sections for useful gadgets, and then assemble the right ones into a functional ROP payload to give executable permissions to the stack and then executes second staged shellcode.
 
 roptester is simple tool that will create a dummy process, load the executable(s) that contain the gadgets, load the ROP payload and a fixed second-stage shellcode, and execute it.
 
