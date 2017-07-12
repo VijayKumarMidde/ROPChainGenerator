@@ -1,4 +1,4 @@
-# ROPChainGenerator
+# ROP Chain Generator
 
 ## Intro
 Rop Chain compiler for Linux x86 based OS. Tested on the following kali image: http://cdimage.kali.org/kali-2016.2/kali-linux-2016.2-i386.iso
